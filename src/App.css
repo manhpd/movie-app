@@ -1,3 +1,7 @@
 .header {
   height: 64px;
 }
+
+.movie-container {
+  background-image: linear-gradient(to right, rgb(30 30 28) 150px, rgb(70 68 62 / 50%) 100%);
+}

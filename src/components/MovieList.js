@@ -10,9 +10,9 @@ const MovieList = (props) => {
             { 
                 !props.error ? (
                     !props.loading ? (
-                            <div className='movies-list d-flex justify-content-evenly flex-wrap'>
+                            <div className={props.view === 'grid' ? 'movie-grid' : 'movie-list'}>
                                 {props.movies?.map((movie, index) => (
-                                    <MovieCard key={'movie_' + index} movie={movie} />
+                                    <MovieCard key={'movie_' + index} movie={movie} view={props.view}/>
                                 ))}
                             </div>
                     ) : (

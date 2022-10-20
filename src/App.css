@@ -5,3 +5,39 @@
 .movie-container {
   background-image: linear-gradient(to right, rgb(30 30 28) 150px, rgb(70 68 62 / 50%) 100%);
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+img {
+  animation: fadeIn 2s; 
+}
+
+.movie-grid-item:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.movie-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.movie-list {
+  padding: 50px;
+}
+
+.movie-grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.thumbnail {
+  height: 100px;
+}

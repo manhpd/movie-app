@@ -2,7 +2,6 @@ import React from 'react';
 
 const MovieDetail = (props) => {
 	const { movie } = props;
-	console.log(props);
 	return (
 		<div style={{ backgroundSize: `cover`, backgroundImage: `url("https://www.themoviedb.org/t/p/w300_and_h450_bestv2${movie.backdrop_path}")` }}>
 			<div className='movie-container p-5 d-flex justify-content-center align-items-center' >

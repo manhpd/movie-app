@@ -2,7 +2,7 @@
 
 **Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
 
-Time spent: **HH** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -36,6 +36,7 @@ Here's a walkthrough of implemented user stories:
 
 > Please record screen to a GIF file and attach link here
 
+https://drive.google.com/file/d/1DygYkUSHNt0yyhiBc9pYw1ugxAn__XSs/view?usp=sharing
 ## License
 
     Copyright [2016] [Manh Pham]

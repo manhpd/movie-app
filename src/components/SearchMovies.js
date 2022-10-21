@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useSearchParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import PullToRefresh from 'react-simple-pull-to-refresh';
 import MovieList from './MovieList';
 
@@ -8,7 +8,6 @@ const SearchMovies = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [view, setView] = useState('grid');
-    const [searchParams] = useSearchParams();
     const { searchValue } = useParams();
 
     const showLoading = () => (
@@ -31,7 +30,6 @@ const SearchMovies = () => {
                     return Promise.reject(error);
                 }
                 return data;
-
             })
             .catch((error) => {
                 if (error) {

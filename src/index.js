@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Movies from './components/Movies';
 import Movie from './components/Movie';
+import SearchMovies from './components/SearchMovies';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "movies",
         element: <Movies />,
+      },
+      {
+        path: "search/:searchValue",
+        element: <SearchMovies />,
       },
       {
         path: "movies/:movieId",

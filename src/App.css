@@ -18,6 +18,16 @@ img {
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
+  background-color: rgb(203, 213, 248);
+  cursor: pointer;
+}
+
+.movie-list-item:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+  background-color: rgb(203, 213, 248);
+  cursor: pointer;
 }
 
 .movie-grid {
@@ -28,7 +38,7 @@ img {
 }
 
 .movie-list {
-  padding: 50px;
+  padding: 0px 50px;
 }
 
 .movie-grid-item {
